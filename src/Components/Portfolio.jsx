@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/image_of_coding.png";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,35 +31,43 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: "Huzzle Web Scraper - King's Labs",
+    description: "Developed a Python web scraper for Huzzle, a startup that connects students with internships.",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "CNN-LSTM Research for Paralysis Patients",
+    description: "Authored research on CNN-LSTM for analyzing EEG signals in paralysis patients using Python, achieving 83% accuracy.",
   },
   {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    title: "American Sign Language Translator",
+    description: "Developed a Python app for real-time ASL to English translation, using computer vision. Achieved 93% success rate.",
   },
   {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    title: "Siemens EDA Software Engineer Intern",
+    description: "Developed an automated EDA testing framework using C++ and C.",
   },
+  {
+    title: "Bright Network IEUK Technology Intern",
+    description: "Created a JavaFX solution for SMEs to track Net Zero Carbon Emissions, enhancing data-driven decision-making.",
+  },
+  {
+    title: "Pandurange Coffee Full Stack Developer",
+    description: "Led the design and development of a web-based coffee recommendation system with Python Machine Learning.",
+  },
+  {
+    title: "Smart-Move: Siemens Hack for Good (Tech for Sustainability)",
+    description: "Led a team to win 2nd Prize in a hackathon, creating Smart-Move, a Python ML app predicting regional energy consumption.",
+  },
+  {
+    title: "Hate-Speech-Detector: Global TCS GoIT Hackathon",
+    description: "Developed a hate speech detector web app, winning 1st place. Used NLP and sentiment analysis with Python for real-time protection.",
+  }
+  // You can add more projects here
 ];
-
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 style={{ textAlign: "center" }}>Portfolio/Projects</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
